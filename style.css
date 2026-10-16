@@ -1,0 +1,77 @@
+/* STYLE SECTIONING TAGS */
+body {
+  font-family: "Cooperplate", "Papyrus", fantasy;
+  margin: 2em;
+
+      background-color: #E2EFCB;
+  color: #1B4332;
+}
+
+/* STYLE TEXT */
+h1 {
+  font-family: "Papyrus", fantasy;
+  text-align : center;
+  font-weight: bolder;
+  padding: 10px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #FFB74D;
+  background-color: #FFB74D;
+  border-radius: 10px
+  
+}
+
+h2{
+  margin : 1em;
+  text-align: center;
+}
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  justify-content: center; 
+  margin-top: 2em;
+  background-color: white;
+  padding: 20px;
+  border-radius: 16px;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+  p{ 
+    font-family: "Georgia", serif;
+    font-weight: bolder;
+    text-align: center;
+    margin: 1.3em;
+  }
+
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 5px;
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  height: 10em;
+  border-radius: 5px;
+}
+
+/* STYLE BUTTON */
+button {
+  background-color: #ffb74d;
+  color: #1b332;
+  border: none;
+  border-radius: 20px;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s;
+  font-family: "Georgia", serif;
+  display: block;
+  margin: 0 auto;
+}
+ 
+button:hover{
+  background-color: #e07a5f;
+  color: white;
+  transform: scale(1.08);
+}
